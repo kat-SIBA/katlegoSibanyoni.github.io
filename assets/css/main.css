@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #f7f2f2;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1837,42 +1837,6 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		background: #f7f7f7;
-		border-radius: 0.35em;
-		border: solid 2px transparent;
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0 0.75em;
-		text-decoration: none;
-		width: 100%;
-	}
-
-		input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			border-color: #49bf9d;
-		}
-
 	select {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
@@ -2652,6 +2616,17 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		#header .inner img {
+			width: 100%;
+			transition: transform 0.3s ease-in-out;
+		}
+		
+		#header .inner img:hover {
+			transform: scale(1.1);
+		}
+		#header .inner img:hover {
+			transform: scale(1.2); 
+		}
 		#header strong, #header b {
 			color: #ffffff;
 		}
@@ -3039,7 +3014,7 @@ input, select, textarea {
 					}
 
 				#header > .inner {
-					margin-bottom: 0;
+					margin-bottom: 29;
 				}
 
 		/* Footer */
@@ -3099,18 +3074,17 @@ input, select, textarea {
 				}
 
 					#header h1 br {
-						display: inline;
+						display:flexbox;
 					}
 
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
+				background-attachment:fixed;
+				background-color: rgba(39, 177, 177, 0.479);
+				background-position: top left,bottom center;
+				background-repeat: repeat,no-repeat;
+				background-size: auto,cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
@@ -3120,7 +3094,7 @@ input, select, textarea {
 			}
 
 				#footer .icons {
-					margin: 0 0 1em 0;
+					margin: 0 0 0em 0;
 				}
 
 				#footer .copyright {
@@ -3196,7 +3170,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 2.25em 1.5em;
+				padding: 5em 1.5em;
 			}
 
 		/* Main */
