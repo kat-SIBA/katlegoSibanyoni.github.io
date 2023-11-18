@@ -244,6 +244,7 @@ input, select, textarea {
 		width: 50%;
 		color: hwb(0 96% 2%);
 		margin-bottom: 2px;
+		padding: 5px;
     }
 	#header .card h1 {
 		position:absolute;
@@ -2680,6 +2681,7 @@ input, select, textarea {
 			line-height: 1em;
 			margin-left: 0.75em;
 			padding-left: 0.75em;
+			margin-top:2px ;
 		}
 
 			#footer .copyright li:first-child {
@@ -3091,7 +3093,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment:fixed;
-				background-color: rgba(39, 177, 177, 0.479);
+				background-color: rgba(55, 65, 65, 0.479);
 				background-position: top left,bottom center;
 				background-repeat: repeat,no-repeat;
 				background-size: auto,cover;
