@@ -246,7 +246,7 @@ input, select, textarea {
 		margin-bottom: 2px;
 		padding: 5px;
 		font-size: medium;
-		text-shadow: #1f1815;
+		text-overflow: clip;
     }
 	#header .card h1 {
 		position:absolute;
@@ -2209,10 +2209,15 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 	}
-
+    ul{
+		margin: 35px;
+		color: rgb(252, 248, 248);
+		margin-bottom: 150px;
+	}
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
+			margin-bottom: 35px;
 		}
 
 			ul.icons li:last-child {
@@ -2575,7 +2580,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: white;
+			color: rgb(248, 246, 246);
 		}
 
 	#footer .copyright {
@@ -2592,7 +2597,7 @@ input, select, textarea {
 			line-height: 1em;
 			margin-left: 0.75em;
 			padding-left: 0.75em;
-			margin-top:6px ;
+			margin-top:40px ;
 		}
 
 			#footer .copyright li:first-child {
