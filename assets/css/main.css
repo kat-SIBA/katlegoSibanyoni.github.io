@@ -243,7 +243,7 @@ input, select, textarea {
 		font-family:bold;
 		margin: 10px;
 		width: 50%;
-		color: hwb(0 96% 2%);
+		color: hwb(0 4% 96%);
 		margin-bottom: 2px;
 		padding: 5px;
 		font-size: medium;
@@ -2212,6 +2212,9 @@ input, select, textarea {
 	ul {
 		color: #f1eeee;
 		margin-top: -40px;
+		margin-right: 100px;
+
+	
 	}
 		ul.icons li {
 			display: inline-block;
