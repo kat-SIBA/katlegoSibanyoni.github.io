@@ -2209,9 +2209,9 @@ input, select, textarea {
 		margin-top: 0px;
 	}
 
-	li {
+	ul {
 		color: #f1eeee;
-		margin-bottom: 120px;
+		margin-top: -50px;
 	}
 		ul.icons li {
 			display: inline-block;
