@@ -149,6 +149,7 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.0em;
+		margin-bottom: 30px;
 	}
 
 	h2  br {
@@ -2173,12 +2174,6 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
-	}
-
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -2211,18 +2206,17 @@ input, select, textarea {
 	}	
 	ul.copyright{
 		color: #111111;
+		margin-top: 0px;
 	}
 
-	
-    ul{
-		margin: 35px;
-		color: rgb(252, 248, 248);
-		margin-top: 10px;
+	li {
+		color: #f1eeee;
+		margin-bottom: 120px;
 	}
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
-			margin-bottom: 35px;
+			margin-bottom: 40px;
 		}
 
 			ul.icons li:last-child {
@@ -2560,18 +2554,14 @@ input, select, textarea {
 
 		#header strong, #header b {
 			color: #ffffff;
+			text-overflow: ellipsis;
+			
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
-		#header h1 {
-			color: rgba(187, 67, 67, 0.5);
-			font-size: 1.35em;
-			line-height: 1.75em;
-			margin: 0;
-		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
@@ -3141,5 +3131,4 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
-
 	}
