@@ -239,28 +239,37 @@ input, select, textarea {
 		border-radius: 2rem;
 		width: 70%;
 	}
-    #header .card strong {
-		font-family:bold;
+	#header .card strong {
+		font-weight: bold; /* Corrected property name */
 		margin: 10px;
 		width: 50%;
-		color: hwb(0 4% 96%);
-		margin-bottom: 2px;
+		color: hwb(0 5% 95%);
+		margin-bottom: 3px;
 		padding: 5px;
 		font-size: medium;
-		text-overflow: clip;
-    }
+		text-shadow: 1px 1px 1px #e7eceb; /* Corrected text-shadow property */
+		overflow: hidden; /* Corrected property name */
+		white-space: nowrap; /* Corrected property name */
+	}
+	
 	#header .card h1 {
-		position:absolute;
+		position: absolute;
 		top: 50%;
-		left: 50%;
-		font-size:1.0rem;
-		font-family: bold;
+		left: 40%; /* Added 'left' property to center horizontally */
+		width: 50%;
+		font-size: 1.0rem;
+		font-weight: bold; /* Changed 'font-family' to 'font-weight' */
 		transform: translate(-50%, -50%);
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
 		color: rgb(236, 226, 226);
+		
 	}
-
+	
+    p{
+		margin-left: 5px;
+		color: #111111;
+	}
 	#header .card:hover h1 {
 		opacity: 1;
 		transition:ease-in-out;
@@ -2212,7 +2221,7 @@ input, select, textarea {
 	ul {
 		color: #f1eeee;
 		margin-top: -40px;
-		margin-right: 100px;
+		margin-right: 11px;
 
 	
 	}
