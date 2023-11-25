@@ -272,8 +272,8 @@ input, select, textarea {
 
 	}
 	#header .card p{
-		color:black;
-		margin-right:20px ;
+		color:rgb(39, 39, 39);
+		margin-right:-60px;
 	}
 	
 	pre {
