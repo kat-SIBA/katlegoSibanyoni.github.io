@@ -265,15 +265,14 @@ input, select, textarea {
 		color: rgb(236, 226, 226);
 		
 	}
-	
-    p{
-		margin-left: 5px;
-		color: #111111;
-	}
+
 	#header .card:hover h1 {
 		opacity: 1;
 		transition:ease-in-out;
 
+	}
+	#header .card p{
+		color:black;
 	}
 	
 	pre {
