@@ -3144,15 +3144,15 @@ input, select, textarea {
 				padding-left: 0;
 			}
 	}
-	#footer a {
-      color: #02867b;
+	#footer a :not(ul) {
+      color: #e1e6df;
 	  outline:none !important;
 	  margin-left: 0px;
 	  border-bottom: none;
+	  margin-left: 30px;
 	}
     #footer a:hover {
 		outline: auto;
 		text-decoration: none;
 		color: #a2a2a2; 
-		margin-right: 19px;
 	}
