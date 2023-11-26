@@ -3148,7 +3148,8 @@ input, select, textarea {
 		color: #e1e6df;
 		outline: none !important;
 		border-bottom: none;
-		margin-right: 10px; 
+		margin-right: 10px;
+		margin-bottom: 30px; 
 	  }
 	  
 
