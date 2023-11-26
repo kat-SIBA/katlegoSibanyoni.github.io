@@ -3144,3 +3144,8 @@ input, select, textarea {
 				padding-left: 0;
 			}
 	}
+	#footer a {
+		color:white;
+		text-decoration: none;
+		outline: none;
+	}
