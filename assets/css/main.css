@@ -3144,7 +3144,7 @@ input, select, textarea {
 				padding-left: 0;
 			}
 	}
-	#footer a :not(ul) {
+	#footer a :not(a) {
       color: #e1e6df;
 	  outline:none !important;
 	  margin-left: 0px;
