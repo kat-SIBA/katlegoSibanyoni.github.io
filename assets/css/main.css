@@ -2958,6 +2958,7 @@ input, select, textarea {
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
+				margin-bottom: 89px;
 				padding-left: 0;
 			}
 
@@ -3029,7 +3030,7 @@ input, select, textarea {
 				}
 
 				#footer .copyright {
-					margin: 0 0 1em 0;
+					margin: 0 2em 1em 0;
 				}
 
 					#footer .copyright li {
@@ -3144,12 +3145,12 @@ input, select, textarea {
 				padding-left: 0;
 			}
 	}
-	#footer a:not(.icons a) {
-		color: #e1e6df;
+	#footer a:not(.icons a):not(.copyright a) {
+		color: #dde2db;
 		outline: none !important;
 		border-bottom: none;
-		margin-right: 10px;
-		margin-bottom: 30px; 
+		margin-right: 20px;
+		margin-top: -5px; 
 	  }
 	  
 
